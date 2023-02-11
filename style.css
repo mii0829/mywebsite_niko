@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    list-style: none;
+}
+
+header {
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.9);
+}
+
+header p {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+header ul {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+header a{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 3px solid #ffd700;
+}
+
+header a:hover {
+    color: #ffd700;
+}
+
+.firstView h1 {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 320px;
+    letter-spacing: 20px;
+}
+
+.firstView p {
+    
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.firstView {
+    background-image: url(images/background5.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.about {
+    padding: 100px;
+    background-image: url(images/background9.jpg);
+    background-size: cover;
+    height: 1100px;
+
+}
+
+.about h2 {
+    font-size: 64px;
+    letter-spacing: 0.3em;
+    border-bottom: 6px double #000;
+    display: inline-block;
+}
+
+.about h3 {
+    font-size: 24px;
+    margin-top: 72px;
+}
+
+.about p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.about img {
+    width: 480px;
+    height: 270px;
+}
+
+.profile h2 {
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+
+.profile h3 {
+    font-size: 24px;
+    margin-top: 72px;
+}
+
+.profile p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.profile-text {
+    width: 500px;
+    float: left;
+
+}
+
+.profile img {
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 00 10px rgba(0,0,0,0.15);
+}
+
+
+
+
+
+.clearfix {
+    clear: both;
+}
+
+.school-club {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.school-club img {
+    width: 480px;
+    height: 270px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.school-club h3 {
+    margin-top: 8px;
+}
+
+.school-club p {
+    margin-top: 16px;
+}
+
+.school-club a {
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-top: 32px;
+}
+
+.favorite h2 {
+    font-size: 64px;
+    letter-spacing: 0.2em;
+    color: #000;
+    border-bottom: 6px double #000;
+    display: inline-block;
+}
+
+.favorite {
+    text-align: center;
+    padding: 40px;
+    padding: 180px 180px 240px 180px;
+    background-image: url(images/background6.jpg);
+    background-size: cover;
+}
+
+.favorite-content h3 {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.favorite-content p {
+    font-size: 16px;
+    text-align-last: left;
+    margin-top: 32px;
+}
+
+.favorite-content img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.favorite-content {
+    width: 320px;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+
+.favorite-contents {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.works {
+    padding: 150px;
+    text-align: center;
+    background-image: url(images/background7.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.works h2 {
+    letter-spacing: 0.1em;
+    font-size: 64px;
+    text-align: center;
+    border-bottom: 6px double #000;
+    display: inline-block;
+}
+
+.works-content {
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    text-align: left;
+    border-radius: 16px;
+
+}
+
+.works-content .works-text {
+    margin-left: 32px;
+}
+
+
+
+.works-content h3 {
+    font-size: 28px;
+}
+
+.works-content p {
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.works-content span {
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+
+footer {
+    height: 80px;
+    background: #edece7;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
